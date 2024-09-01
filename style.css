@@ -2,54 +2,15 @@ html {
     font-size:  1rem;
 }
 
-h1, h2, .encode-sans-regular-semibold-condensed { /* VIRGINIA, nomi progetti */
+h1, h2, .encode-sans-regular-semibold-condensed {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
 
-h3, h4, .pt-sans-narrow-regular { /* MILVIA TEMPERINI, sezioni */
+h3, h4, .pt-sans-narrow-regular {
     font-family: "Inter", sans-serif;
 }
   
-
-h1 {
-    font-size: 1.5rem;
-    letter-spacing: auto;
-    text-align: center;
-    font-weight: 800;
-}
-
-h2 {
-    font-size: 2rem;
-    letter-spacing: auto;
-    text-align: center;
-    font-weight: 600;
-}
-
-h3 {
-    font-size: 1.25rem;
-    margin-top: auto;
-    text-align: left;
-    letter-spacing: auto;
-}
-
-h4 {
-    font-size: 1.20rem;
-    margin-top: auto;
-    text-align: left;
-    letter-spacing: auto;
-}
-
-h5 {
-    font-size: 1rem;
-    margin-top: auto;
-    text-align: left;
-    letter-spacing: auto;
-}
-
-p {
-    text-align: center;
-}
 
 #cover {
     width: 100vw;
@@ -78,7 +39,8 @@ No media query for `xs` since this is the default in Bootstrap */
 @media (min-width: 768px) {  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 992px)  {   /*
+
 
     html {
         font-size:  1rem;
@@ -93,7 +55,7 @@ No media query for `xs` since this is the default in Bootstrap */
         letter-spacing: 1.875rem;
     }
 
-}
+ */  } 
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
