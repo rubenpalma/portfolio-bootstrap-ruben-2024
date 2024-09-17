@@ -1,12 +1,7 @@
-h1, h2, .encode-sans-regular-semibold-condensed {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --bs-font-sans-serif: inter;
 }
-
-h3, h4, .pt-sans-narrow-regular {
-    font-family: "Inter", sans-serif;
-}
-
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
